@@ -1,0 +1,40 @@
+
+/*variables*/
+:root {
+    --main-color: #7AB180;
+    --header-height: 60px;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: var(--main-color);
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+#brand {
+    color: white;
+    font-size: 2em;
+}
+main {
+    height: calc(100vh - var(--header-height));
+}
+.pane-two-third {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 100%;
+
+}
+.map {
+    /*background: purple;*/
+}
+
+.cards {
+    /*background: cadetblue;*/
+}
+
