@@ -81,7 +81,7 @@ main {
     margin-bottom: 10px;
 }
 
-.input-group input {
+.input-group input, select {
     padding: 5px;
     font-size: 1em;
     width: 90%;
@@ -104,3 +104,7 @@ main {
     color: white;
 }
 
+.error-message {
+    color: red;
+    font-style: italic;
+}
